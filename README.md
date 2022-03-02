@@ -1,1 +1,2 @@
-# HTML-CSS-Git-Code-Refactor
+This repository shows the files that I added and refactored to make them easier to follow.
+These files came from the repo that was provided to the class and I cloned the repo then moved those files over to my own repo.

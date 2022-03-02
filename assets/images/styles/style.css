@@ -3,10 +3,22 @@
     padding: 0;
     margin: 0;
 }
+/*styling that selects all of <a> and <p> elements through the whole code*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
 
+p {
+    font-size: 16px;
+}
+/*end of universal elements*/
+
+/*body styling*/
 body {
     background-color: #d9dcd6;
 }
+/*end of body styling*/
 
 /*header element within body element*/
 .header {
@@ -41,15 +53,7 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
+/*end of header styling*/
 
 /*beginning of hero styling*/
 .hero {
@@ -60,6 +64,7 @@ p {
     background-size: cover;
     background-position: center;
 }
+/*end of hero styling*/
 
 /*general classes to make styling mulitple elements*/
 .float-left {
@@ -79,7 +84,7 @@ p {
     margin-left: 20px;
 }
 
-/*beginning of body elements*/
+/*beginning of section with class = content element*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -127,6 +132,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/*end of conent element styling*/
 
 /*beginnning of the aside element documenting the benefits*/
 .benefits {
@@ -187,6 +193,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+/*end of aside element styling*/
 
 /* footer styling*/
 .footer {
@@ -199,3 +206,4 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+/*end of footer styling*/
